@@ -12,3 +12,11 @@
    *Quando mais de um coloborador modificou o mesmo arquivo, simultaneamente, deve ser feito o merging, antes do commit*
    
    *Se teve alteração em algo já esxistente projeto, a release deve ser renomeada acrescentando o número da modificação na terceira casa*
+## Padrões
+   *Cada uma das pasta contem arquivos relacionados*
+   
+   *Pasta Padrões Adotados contém as regras de verificação de analises de requisitos, onde especificamos como vamos especificar e analisar os requisitos*
+   
+   *Na pasta Requisitos, cotêm o documento de requisitos, onde é especificado e explicado oos requisitos do sistema e a prototipação da interface*
+   
+   *Na pasta codigo, fica os codigos usados no projeto*
