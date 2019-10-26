@@ -20,6 +20,8 @@
    *Na pasta Requisitos, cotêm o documento de requisitos, onde é especificado e explicado oos requisitos do sistema e a prototipação da interface.*
    
    *Na pasta codigo, fica os codigos usados no projeto.*
+   
+   *Os arquivos "formulario.html", "pag.php" e "interface.css" são codigos teste, para conhecer as funcionalidades do git.*
 ## Boas Práticas
    *Os comentários devem apresentar uma visão geral das classes e dos métodos.*
    
