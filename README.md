@@ -40,5 +40,6 @@
    *Um método deve realizar apenas uma tarefa.*
 ## Padrões de notação de código
    *O estilo Camelo (Camel Case), em que uma palavra com a primeira letra minúscula e a primeira letra de cada palavra parte subsequente em maiúscula, foi utilizado para variáveis e métodos.*
+   
    *As classes são representadas por substantivos com a primeira letra maiúscula.*
 
