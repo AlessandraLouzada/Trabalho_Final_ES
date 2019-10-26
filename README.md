@@ -3,4 +3,12 @@
 ## Tecnologias utilizadas 
   Utizamos para front-end HTML e CSS e para back-end PHP.
   A versão utilizada e o banco de dados foram MySQL Workbench 8.0 CE
-  
+
+## Regras
+   *Todo commit deve ser comentado*
+   
+   *Para alterar um requisito é preciso o aval de todos os colaboradores*
+   
+   *Quando mais de um coloborador modificou o mesmo arquivo, simultaneamente, deve ser feito o merging, antes do commit*
+   
+   *Se teve alteração em algo já esxistente projeto, a release deve ser renomeada acrescentando o número da modificação na terceira casa*
