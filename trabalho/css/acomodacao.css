@@ -1,0 +1,80 @@
+body {
+	background-image: url("hotel.png");
+}
+
+header{
+	font-family: Harlow Solid;
+	color: #DEC77D;
+	text-shadow: 3px 2px white;
+	font-size: 50px;
+	background-color: #EEECEC;
+	text-align: center;
+	width: 95%;
+	margin-bottom: 5%;
+	padding: 22px;
+	border-radius: 15px;
+	font-weight: 800;
+	background-image: url("VN.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 250px 200px;
+}
+#botao{
+	margin-left: 7%;
+}
+#bot{
+	margin-left: 90%;
+	size:50px;
+}
+#conte{
+	background: rgba(255, 255,255, 0.8);
+	width: 87%;
+	padding: 22px;
+	border-radius: 15px;
+	font-size: 23px;
+	margin-left:5%;
+	background-image: url("suite.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: 480px 285px;
+	margin:5%;
+}
+#luxo{
+	background: rgba(255, 255,255, 0.8);
+	width: 87%;
+	padding: 22px;
+	border-radius: 15px;
+	font-size: 23px;
+	margin-left:5%;
+	background-image: url("luxo.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: 480px 333px;
+	margin:5%;
+}
+#pres{
+	background: rgba(255, 255,255, 0.8);
+	width: 87%;
+	padding: 22px;
+	border-radius: 15px;
+	font-size: 23px;
+	margin-left:5%;
+	background-image: url("spres.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: 480px 281px;
+	margin:5%;
+}
+button{
+  background-color: #756c5f;
+  font-family: Segoe UI Emoji;
+  font-size: 17px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+}
+button:hover{
+  background-color: #8b8173;
+}
