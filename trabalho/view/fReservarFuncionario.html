@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type ="text/css" href="http://localhost/trabalho/css/fReservar.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Reservar</title>
+	</head>
+	<body>
+
+		<header>
+			Vila Nova<br>
+			<div id="botao">
+				<button	type="button" onclick="window.location='http://localhost/trabalho/view/homeFuncionario.html'"><font color=white>Home</font></button>
+				<button	type="button" onclick="window.location='http://localhost/trabalho/view/acomodacaoFuncionario.html'"><font color=white>Acomodações</font></button>
+				<button	type="button" onclick="window.location='http://localhost/trabalho/view/servicoFuncionario.html'"><font color=white>Serviços</font></button>
+				<button	type="button" onclick="window.location='http://localhost/trabalho/view/reserva.html'"><font color=white>Reservas</font></button>
+				<button	type="button" onclick="window.location='http://localhost/trabalho/view/fReservarFuncionario.html'"><font color=white> Fazer Reserva</font></button>
+				<button	type="button" onclick="window.location='http://localhost/trabalho/view/sobreFuncionario.html'"><font color=white>Sobre</font></button>
+				<button type="button" onclick="window.location='http://localhost/trabalho/view/conferircadastro.html'"><font color=white>Conferir Cadastro</font></button>
+				<button	type="button" onclick="window.location='http://localhost/trabalho/home.html'"><font color=white>Sair</font></button>
+			</div>
+		</header>
+		<div id = "box">
+			
+			Data de Entrada: <input type="date" name="entrada"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+			Data Saida: <input type="date" name="saida"> <br><br>
+			Serviços:<br> 
+				<input type="checkbox" value="fit"> Centro fitness (R$50/dia) <br>
+				<input type="checkbox" value="rest"> Restaurante (R$100/dia) <br>
+				<input type="checkbox" value="spa" > SPA(R$150/dia) <br><br>
+			Tipo Quarto:<br> 
+				<input type="radio" name="quarto" value="cont"> Contemporanea (R$958/dia) <br>
+				<input type="radio" name="quarto" value="luxo"> Luxo (R$2186/dia) <br>
+				<input type="radio" name="quarto" value="pres" > Presidencial(R$3891/dia) <br><br>
+			Digite o CPF cadastrado: <input type="txt" name="cpf" maxlength='11' required> <br><br>
+				  
+			<div id= "total">
+				Valor Total: 
+			</div>
+			<div id="botao">
+				<button type="button" onclick="alert('Reserva realizada com sucesso.')">Boleto</button>
+
+			</div>
+		</div>
+	</body>
