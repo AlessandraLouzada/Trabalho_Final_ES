@@ -1,0 +1,124 @@
+/*
+Css utilizado pelas interfaces fReservarFuncionario.html, reserva.html, C_alterarReserva.php
+*/
+body {
+	background-image: url("hotel.png");
+}
+
+header{
+	font-family: Harlow Solid;
+	color: #DEC77D;
+	text-shadow: 3px 2px white;
+	font-size: 50px;
+	background-color: #EEECEC;
+	text-align: center;
+	width: 95%;
+	margin-bottom: 5%;
+	padding: 22px;
+	border-radius: 15px;
+	font-weight: 800;
+	background-image: url("VN.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 250px 200px;
+}
+#botao{
+	margin-left: 7%;
+}
+#tabela{
+	background: #a9a9a9;
+	width: 71.5%;
+	color: black;
+	text-shadow: 1px 0.5px  #7B6C20;
+	margin-left: 13%;
+	padding: 10px;
+	resize: center;
+	border-radius: 15px;
+	font-size: 30px;
+	margin-top: 5%;
+}
+#cad{
+	background: rgba(255, 255,255, 0.8);
+	text-align: center;
+	width: 42%;
+	color: #B9A74A;
+	text-shadow: 1px 0.5px  #7B6C20;
+	margin-left: 30%;
+	padding: 22px;
+	resize: center;
+	border-radius: 15px;
+	font-size: 30px;
+	margin-top: 5%;
+}
+#total{
+	margin-left: 70%;
+	font-size: 30px;
+	color: #B9A74A;
+	text-shadow: 1px 0.5px  #7B6C20;
+}
+#box{
+	background: rgba(255, 255,255, 0.8);
+	width: 70%;
+	margin-left:13%;
+	padding: 22px;
+	border-radius: 15px;
+	text-align: center;
+	font-size: 20px;
+	
+}
+input [type=te], [type=text]{
+	width: 30%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+input [type=te], [type=res]{
+	width: 5%;
+	padding: 3px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-sizing: border-box;
+	text-align: center;
+	margin-top: 1px;
+	margin-bottom: 6px;
+	resize: vertical;
+}
+input [type=te], [type=tel], [type=date], [type=txt]{
+	width: 17%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+button {
+  background-color: #756c5f;
+  font-family: Segoe UI Emoji;
+  color: white;
+  font-size: 17px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+}
+button:hover{
+  background-color: #8b8173;
+}
+input[type=te], [type=submit]{
+  background-color: #756c5f;
+  font-family: Segoe UI Emoji;
+  color: white;
+  font-size: 17px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 40px;
+}

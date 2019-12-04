@@ -1,0 +1,92 @@
+/*
+Css utilizado pelas interfaces servico.html, servicoLogin.html e servicoFuncionario.html
+*/
+body {
+	background-image: url("hotel.png");
+}
+
+header{
+	font-family: Harlow Solid;
+	color: #DEC77D;
+	text-shadow: 3px 2px white;
+	font-size: 50px;
+	background-color: #EEECEC;
+	text-align: center;
+	width: 95%;
+	margin-bottom: 5%;
+	padding: 22px;
+	border-radius: 15px;
+	font-weight: 800;
+	background-image: url("VN.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 250px 200px;
+}
+#botao{
+	margin-left: 7%;
+}
+#estac{
+	background: rgba(255, 255,255, 0.8);
+	width: 87%;
+	padding: 22px;
+	border-radius: 15px;
+	font-size: 23px;
+	margin-left:5%;
+	background-image: url("estacionamento.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 440px 230px;
+	margin:5%;
+}
+#fit{
+	background: rgba(255, 255,255, 0.8);
+	width: 87%;
+	padding: 22px;
+	border-radius: 15px;
+	font-size: 23px;
+	margin-left:5%;
+	background-image: url("academia.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 440px 230px; 
+	margin:5%;
+}
+#rest{
+	background: rgba(255, 255,255, 0.8);
+	width: 87%;
+	padding: 22px;
+	border-radius: 15px;
+	font-size: 23px;
+	margin-left:5%;
+	background-image: url("restaurante.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 440px 230px;
+	margin: 5%; 
+}
+#spa{
+	background: rgba(255, 255,255, 0.8);
+	width: 87%;
+	padding: 22px;
+	border-radius: 15px;
+	font-size: 23px;
+	margin-left:5%;
+	background-image: url("spa.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 440px 230px; 
+}
+button{
+  background-color: #756c5f;
+  font-family: Segoe UI Emoji;
+  font-size: 17px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+
+}
+button:hover{
+  background-color: #8b8173;
+}

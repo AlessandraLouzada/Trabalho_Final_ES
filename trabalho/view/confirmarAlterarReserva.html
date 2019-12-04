@@ -1,0 +1,35 @@
+<! -- Interface acessada pelo funcionario do hotel para alterar os dados de uma reserva de um hospede. -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type ="text/css" href="http://localhost/trabalho/css/cadastro.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Conferir Cadastro</title>
+	</head>
+	<body>
+		<header>
+			Vila Nova<br>
+			<div id="botao">
+				<button	type="button" onclick="window.location='http://localhost/trabalho/view/homeFuncionario.html'"><font color=white>Home</font></button>
+				<button	type="button" onclick="window.location='http://localhost/trabalho/view/acomodacaoFuncionario.html'"><font color=white>Acomodações</font></button>
+				<button	type="button" onclick="window.location='http://localhost/trabalho/view/servicoFuncionario.html'"><font color=white>Serviços</font></button>
+				<button	type="button" onclick="window.location='http://localhost/trabalho/view/reserva.html'"><font color=white>Reservas</font></button>
+				<button	type="button" onclick="window.location='http://localhost/trabalho/view/fReservarFuncionario.html'"><font color=white> Fazer Reserva</font></button>
+				<button	type="button" onclick="window.location='http://localhost/trabalho/view/sobreFuncionario.html'"><font color=white>Sobre</font></button>
+				<button type="button" onclick="window.location='http://localhost/trabalho/view/conferircadastro.html'"><font color=white>Conferir Cadastro</font></button>
+				<button	type="button" onclick="window.location='http://localhost/trabalho/home.html'"><font color=white>Sair</font></button>
+			</div>
+		</header>
+		<div id="cad">
+			<font size= 30px>Alterar Reserva</font><br><br>
+			<div id="dados">
+				<form  action="..\controller\C_alterarReserva.php" method="POST">
+					Numero reserva: <input type="txt" name="res" maxlength='4' required> <br><br>
+					<input type="submit" value="Confirmar">
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

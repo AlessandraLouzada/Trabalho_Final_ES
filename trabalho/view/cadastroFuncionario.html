@@ -1,0 +1,39 @@
+<! -- Interface acessada pelo funcionario do hotel para efetuar o cadastro de um hospede. -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type ="text/css" href="http://localhost/trabalho/css/cadastro.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Cadastrar</title>
+	</head>
+	<body>
+		<header>
+			Vila Nova<br>
+			<div id="botao">
+				<button	type="button" onclick="window.location='http://localhost/trabalho/view/homeFuncionario.html'"><font color=white>Home</font></button>
+				<button	type="button" onclick="window.location='http://localhost/trabalho/view/acomodacaoFuncionario.html'"><font color=white>Acomodações</font></button>
+				<button	type="button" onclick="window.location='http://localhost/trabalho/view/servicoFuncionario.html'"><font color=white>Serviços</font></button>
+				<button	type="button" onclick="window.location='http://localhost/trabalho/view/reserva.html'"><font color=white>Reservas</font></button>
+				<button	type="button" onclick="window.location='http://localhost/trabalho/view/fReservarFuncionario.html'"><font color=white> Fazer Reserva</font></button>
+				<button	type="button" onclick="window.location='http://localhost/trabalho/view/sobreFuncionario.html'"><font color=white>Sobre</font></button>
+				<button type="button" onclick="window.location='http://localhost/trabalho/view/conferircadastro.html'"><font color=white>Conferir Cadastro</font></button>
+				<button	type="button" onclick="window.location='http://localhost/trabalho/home.html'"><font color=white>Sair</font></button>
+			</div>
+		</header>
+		<div id="cad">
+			<form action="..\controller\C_cadastrarHospede.php" method="POST">
+				<font size= 30px>Cadastrar</font><br><br>
+				Nome: <input type="text" name="nome" size="40" maxlength="40" required placeholder="Digite seu nome" color: black;> <br><br>
+				CPF: <input type="txt" name="cpf" maxlength="11" required> &nbsp 
+				Nascimento: <input type="date" name="nasc" required><br><br>
+				Email: <input type="email" name="email" required> <br><br>
+				Senha: <input type="password" name="senha" maxlength="15" required><br><br>
+				Telefone: <input type="tel" name="fone">
+				<div id="bot">
+					<input type="submit" value="Cadastrar">
+				</div>
+			</form>
+		</div>
+	</body>
