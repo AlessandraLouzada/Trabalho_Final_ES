@@ -19,9 +19,17 @@
    
    *Pasta Padrões Adotados contém as regras de verificação de analises de requisitos, onde especificamos como vamos especificar e analisar os requisitos.*
    
-   *Na pasta Requisitos, cotêm o documento de requisitos, onde é especificado e explicado oos requisitos do sistema e a prototipação da interface.*
+   *Na pasta Requisitos, cotêm o documento de requisitos, onde é especificado e explicado oos requisitos do sistema e a prototipação da interface, e os requisitos funcionais do sistema.*
    
-   *Na pasta codigo, fica os codigos usados no projeto.*
+   *Na pasta trabalho, fica os codigos usados no projeto.*
+   
+   *Na pasta Banco de dados, está o modelo logico e o script do banco de dados.*[
+   
+   *Na pasta Diagramas, estão os diagramas de classe, caso de uso, implantação e sequência.*
+   
+   *Na pasta Caso teste, contêm o caso de teste realizado com um membro de outro grupo.*
+   
+   *O .gitignore, contêm os nomes dos arquivos que devem ser ignorados ao fazer um commit.*
    
    *Os arquivos "formulario.html", "pag.php" e "interface.css" são codigos teste, para conhecer as funcionalidades do git.*
 ## Boas Práticas
