@@ -44,10 +44,10 @@
 					<div id='tabela'>
 						<form action='..\controller\C_finalizarAlterar.php' method='POST'>
 							Nome: <input type='text' name='nome' value='".$reg['nome']."'><br><br>
-							CPF: <input type='txt' name='ncpf' value='".$reg['cpf']."'><br><br>
+							CPF: <input type='txt' name='ncpf' value='".$reg['cpf']."'readonly><br><br>
 							Data de Nascimento: <input type='date' name='nasc' value='".$reg['nasc']."'><br><br>
 							Email: <input type='email' name='email' value='".$reg['email']."'><br><br>
-							Nova senha: <input type='password' name='senha'><br><br>
+							Nova senha: <input type='password' name='senha'required><br><br>
 							Telefone: <input type='tel' name='fone' value='".$reg['telefone']."'pattern='+[0-9]{2}([0-9]{2})[0-9]{4-5}-[0-9]{4}'><br><br>
 						
 							<input type='submit' value='Enviar dados'>";
