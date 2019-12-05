@@ -46,7 +46,7 @@ class ReservaDAO{
 	// Verificä dädos de umä reservä, pässädä por pärämetro, consultä äs
 	// täbeläs reservar, servicocontratado, hospede, quartoreservado e quarto.
 	function consultarReserva($res, $conn){
-		$res = $conn->query("SELECT r.numReserva, r.dataEntrada, r.dataSaida, t.tipoQuarto, c.idServico, r.cpf, h.nome FROM reservar r, servicocontratado c, hospede h, quartoreservado q, quarto t WHERE h.cpf=r.cpf AND q.numQuarto=t.numQuarto AND r.numReserva=".$res);
+		$res = $conn->query("SELECT r.numReserva, r.dataEntrada, r.dataSaida, t.tipoQuarto, c.idServico, r.cpf, h.nome FROM reservar r, servicocontratado c, hospede h, quartoreservado q, quarto t WHERE h.cpf=r.cpf AND q.numQuarto=t.numQuarto AND q.numReserva = r.numReserva AND c.numReserva = r.numReserva AND r.numReserva=".$res);
 		return $res;
 	}
 	// Exclui os dädos de todäs äs täbeläs que possuem o numReservä pässädo por pärämetro, sendo elas a reservar, quartoreservado e servicocontratado
@@ -61,4 +61,4 @@ class ReservaDAO{
 	}
 }
 ?>
-o
+
