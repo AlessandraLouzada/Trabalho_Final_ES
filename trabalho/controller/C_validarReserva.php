@@ -20,7 +20,7 @@
 	$conexao->conectar();
 	
 	$hospededao = new HospedeDao();
-	// Manda o cpf recebido no post por parametro para que seja retornado os dados do hospede portador desse cpf
+	// Manda o cpf recebido no post por parametro para conferir se existe algum hospede cadastrado com esse cpf
 	$res1 = $hospededao->consultar($cpf, $conexao->getConn());
 	
 	// Caso retorne alguma linha será permitido fazer a reserva
@@ -113,6 +113,5 @@
 							Cpf invalido!
 				</div></body></html>";
 		}
-	}
 
 ?>
